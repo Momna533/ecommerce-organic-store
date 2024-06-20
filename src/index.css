@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", sans-serif;
+}
+p,
+a,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+/* --e-global-color-astglobalcolor0: #8bc34a;
+    --e-global-color-astglobalcolor1: #6a9739;
+    --e-global-color-astglobalcolor2: #111111;
+    --e-global-color-astglobalcolor3: #333333;
+    --e-global-color-astglobalcolor4: #f8f6f3;
+    --e-global-color-astglobalcolor5: #ffffff;
+    --e-global-color-astglobalcolor6: #001524;
+    --e-global-color-astglobalcolor7: #f8f6f3;
+    --e-global-color-astglobalcolor8: #000000; */
