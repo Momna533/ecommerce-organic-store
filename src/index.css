@@ -10,12 +10,15 @@ h4,
 h5,
 h6 {
   font-family: "Merriweather", sans-serif;
+  color: #111111;
 }
 p,
 a,
 button {
   font-family: "Open Sans", sans-serif;
+  color: #333333;
 }
+
 /* --e-global-color-astglobalcolor0: #8bc34a;
     --e-global-color-astglobalcolor1: #6a9739;
     --e-global-color-astglobalcolor2: #111111;

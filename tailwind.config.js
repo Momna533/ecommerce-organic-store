@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        green: "#8Bc34a",
+      },
       fontFamily: {
         merriweather: ["Merriweather", "sans-serif"],
         openSans: ["Open-sans", "sans-serif"],
