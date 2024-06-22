@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       colors: {
         green: "#8Bc34a",
+        btnBg: "#6a9739",
+        bgOverlay: "#00000060",
+        border: "#dddddd",
       },
       fontFamily: {
         merriweather: ["Merriweather", "sans-serif"],

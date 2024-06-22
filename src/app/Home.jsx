@@ -3,7 +3,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 
 const Home = () => {
   useDocumentTitle("Home");
-  return <Header />;
+  return;
 };
 
 export default Home;
