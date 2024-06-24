@@ -18,7 +18,11 @@ button {
   font-family: "Open Sans", sans-serif;
   color: #333333;
 }
-
+@media (max-width: 412px) {
+  .flex__col {
+    flex-direction: column;
+  }
+}
 /* --e-global-color-astglobalcolor0: #8bc34a;
     --e-global-color-astglobalcolor1: #6a9739;
     --e-global-color-astglobalcolor2: #111111;

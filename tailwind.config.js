@@ -10,6 +10,10 @@ module.exports = {
         btnBg: "#6a9739",
         bgOverlay: "#00000060",
         border: "#dddddd",
+        black: "#111111",
+        white: "#ffffff",
+        gray: "#ffffff80",
+        divider: "#ffffff20",
       },
       fontFamily: {
         merriweather: ["Merriweather", "sans-serif"],
