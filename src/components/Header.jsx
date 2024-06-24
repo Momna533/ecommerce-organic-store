@@ -25,60 +25,15 @@ const Header = () => {
             />
           </Link>
           <div className="flex items-center content-center gap-4">
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "px-2 text-btnBg hover:text-green transition-all"
-                  : "px-2  hover:text-green transition-all"
-              }
-              to="/shop"
-            >
-              Everything
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "px-2 text-btnBg hover:text-green transition-all"
-                  : "px-2  hover:text-green transition-all"
-              }
-              to="/groceries"
-            >
-              Groceries
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "px-2 text-btnBg hover:text-green transition-all"
-                  : "px-2  hover:text-green transition-all"
-              }
-              to="/juice"
-            >
-              Juice
-            </NavLink>
+            <HeaderNavLink to="shop" text="Everything" />
+            <HeaderNavLink to="groceries" text="groceries" />
+            <HeaderNavLink to="juice" text="juice" />
           </div>
         </div>
         <div className="flex items-center content-center gap-4">
           <div className="flex items-center content-center">
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "px-2 text-btnBg hover:text-green transition-all"
-                  : "px-2  hover:text-green transition-all"
-              }
-              to="/about"
-            >
-              About
-            </NavLink>
-            <NavLink
-              className={({ isActive }) =>
-                isActive
-                  ? "px-2 text-btnBg hover:text-green transition-all"
-                  : "px-2  hover:text-green transition-all"
-              }
-              to="/contact"
-            >
-              Contact
-            </NavLink>
+            <HeaderNavLink to="about" text="about" />
+            <HeaderNavLink to="contact" text="contact" />
           </div>
           <div className="flex items-center content-center gap-4">
             <button
@@ -124,3 +79,17 @@ const Header = () => {
 };
 
 export default Header;
+const HeaderNavLink = ({ to, text }) => {
+  return (
+    <NavLink
+      className={({ isActive }) =>
+        isActive
+          ? "px-2 text-btnBg hover:text-green transition-all"
+          : "px-2  hover:text-green transition-all"
+      }
+      to={`/${to}`}
+    >
+      {text}
+    </NavLink>
+  );
+};
